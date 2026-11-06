@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'" />
+<title>NEXUS</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="hud"></canvas>
+  <div class="grid-overlay"></div>
+  <div class="scanlines"></div>
+  <div class="vignette"></div>
+
+  <div id="boot" class="boot">
+    <div class="boot-inner">
+      <pre id="bootLog"></pre>
+      <div class="boot-bar"><i></i></div>
+    </div>
+  </div>
+
+  <header class="bar bar-top">
+    <div class="brand">
+      <div class="reactor-mini"><span></span></div>
+      <div>
+        <div class="brand-name">N E X U S</div>
+        <div class="brand-sub">LOCAL NEURAL CORE · MARK IV</div>
+      </div>
+    </div>
+
+    <button id="wsBtn" class="chip" title="Change workspace">workspace…</button>
+    <button id="newChatBtn" class="chip" title="Start a new chat">new chat</button>
+    <button id="clearChatBtn" class="chip" title="Delete chat history">clear history</button>
+
+    <div class="bar-right">
+      <div class="readout"><i class="lbl">LINK</i><b id="serverStat" class="val">…</b></div>
+      <div class="readout"><i class="lbl">VRAM</i><b id="vramStat" class="val">…</b></div>
+      <div class="readout"><i class="lbl">CORES</i><b id="residentStat" class="val">NONE</b></div>
+      <div class="readout"><i class="lbl">TOOLS</i><b id="toolStat" class="val">…</b></div>
+      <div class="readout"><i class="lbl">TIME</i><b id="clock" class="val">--:--:--</b></div>
+    </div>
+  </header>
+
+  <main class="stage">
+    <section class="col col-left">
+      <div class="panel fill">
+        <div class="panel-head">
+          <span class="ttl">DIRECTORY</span>
+          <button id="refreshFiles" class="icon" title="Rescan">⟳</button>
+        </div>
+        <div id="fileTree" class="file-tree"><em>scanning…</em></div>
+      </div>
+    </section>
+
+    <section class="col col-mid">
+      <div class="console">
+        <div class="console-head">
+          <span class="pulse-dot"></span>
+          <span class="ttl">COMMUNICATION LOG</span>
+          <span id="routeHint" class="hint">standby</span>
+        </div>
+
+        <div id="transcript" class="transcript">
+          <div class="empty">
+            <div class="empty-ring"></div>
+            <h1>NEXUS ONLINE</h1>
+            <p>Every core, tool and skill on this machine is wired in. State your objective.</p>
+            <p class="hint">local models on demand · inherited mcp · full system control</p>
+          </div>
+        </div>
+
+        <div class="composer">
+          <div class="frame">
+            <span class="brk tl"></span><span class="brk tr"></span>
+            <span class="brk bl"></span><span class="brk br"></span>
+            <textarea id="input" rows="2" placeholder="COMMAND  ›  describe the objective…   (CTRL+ENTER to execute)"></textarea>
+          </div>
+          <div class="composer-row">
+            <div class="selectors">
+              <label>MODE<select id="modeSel" title="How work is dispatched">
+                <option value="auto">auto</option>
+                <option value="supervisor">supervisor</option>
+                <option value="direct">direct</option>
+              </select></label>
+              <label>CORE<select id="modelSel" title="Force a model profile">
+                <option value="">auto route</option>
+              </select></label>
+            </div>
+            <button id="sendBtn" class="exec">EXECUTE</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="col col-right">
+      <div class="panel tabs-panel fill">
+        <div class="panel-head tabbed">
+          <div class="tabs">
+            <button class="tab on" data-tab="cores">CORES</button>
+            <button class="tab" data-tab="caps">CAPABILITIES</button>
+            <button class="tab" data-tab="tel">TELEMETRY</button>
+          </div>
+          <span class="tag" id="tabTag">0</span>
+        </div>
+
+        <div class="tab-body" id="tabCores">
+          <div id="poolList" class="pool-list"></div>
+        </div>
+
+        <div class="tab-body hidden" id="tabCaps">
+          <div class="cap-summary" id="capSummary">
+            <div class="cap-row"><i>MCP</i><b id="capServers">—</b></div>
+            <div class="cap-row"><i>TOOLS</i><b id="capTools">—</b></div>
+            <div class="cap-row"><i>SKILLS</i><b id="capSkills">—</b></div>
+          </div>
+          <div id="serverList" class="server-list"></div>
+          <div class="panel-sub">SKILLS</div>
+          <div id="skillList" class="skill-list"></div>
+        </div>
+
+        <div class="tab-body hidden" id="tabTel">
+          <div id="activity" class="activity"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bar bar-bottom">
+    <span id="sysBtn" class="sys-toggle off" title="Allow the agent to reach the whole machine">SYSTEM ACCESS · OFF</span>
+    <button id="haltBtn" class="halt-btn" title="Emergency stop: kill agents, MCP servers, automation and purple-line work">&#9632; STOP</button>
+    <span id="capLine" class="foot-note cap-line">indexing capabilities…</span>
+    <span id="stateLine" class="foot-note state">IDLE</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,1265 @@
+{
+  "generatedAt": "2026-11-06T01:55:37.336Z",
+  "measured": false,
+  "sources": [
+    {
+      "file": "C:\\Users\\HP\\.config\\opencode\\opencode.jsonc",
+      "servers": 33
+    },
+    {
+      "file": "C:\\Users\\HP\\.config\\opencode\\opencode.json",
+      "servers": 18
+    }
+  ],
+  "servers": [
+    {
+      "name": "android-control",
+      "command": "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python312\\python.exe D:\\AI-Tools-Consolidated\\New folder\\opencode\\mcp\\android-control\\mcp_server.py",
+      "enabled": false,
+      "description": "",
+      "measured": null
+    },
+    {
+      "name": "android-development",
+      "command": "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m android_mcp.server",
+      "enabled": false,
+      "description": "",
+      "measured": null
+    },
+    {
+      "name": "database-sql",
+      "command": "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m database_mcp.server",
+      "enabled": false,
+      "description": "",
+      "measured": null
+    },
+    {
+      "name": "n8n-full",
+      "command": "node lib/index.js",
+      "enabled": false,
+      "description": "",
+      "measured": null
+    },
+    {
+      "name": "office-documents",
+      "command": "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m office_mcp.server",
+      "enabled": false,
+      "description": "",
+      "measured": null
+    },
+    {
+      "name": "software-engineering-mcp",
+      "command": "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m se_mcp.server",
+      "enabled": false,
+      "description": "",
+      "measured": null
+    },
+    {
+      "name": "universal-artist",
+      "command": "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m universal_artist",
+      "enabled": false,
+      "description": "",
+      "measured": null
+    },
+    {
+      "name": "universal-visual-computing",
+      "command": "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m universal_visual.server",
+      "enabled": false,
+      "description": "",
+      "measured": null
+    },
+    {
+      "name": "windows-system",
+      "command": "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m windows_mcp.server",
+      "enabled": false,
+      "description": "",
+      "measured": null
+    },
+    {
+      "name": "personal-desktop-person",
+      "command": "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m personal_desktop_person",
+      "enabled": false,
+      "description": "",
+      "measured": null
+    },
+    {
+      "name": "olcap-realtime-assistant",
+      "command": "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m olcap_realtime.main",
+      "enabled": false,
+      "description": "",
+      "measured": null
+    },
+    {
+      "name": "visionforge",
+      "command": "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m visionforge mcp serve",
+      "enabled": false,
+      "description": "",
+      "measured": null
+    },
+    {
+      "name": "universal-kali-mcp",
+      "command": "node dist/mcp/server.js",
+      "enabled": false,
+      "description": "",
+      "measured": null
+    },
+    {
+      "name": "openjev",
+      "command": "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m openjev_mcp",
+      "enabled": false,
+      "description": "",
+      "measured": null
+    },
+    {
+      "name": "audio-workstation",
+      "command": "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m audio_workstation.server",
+      "enabled": false,
+      "description": "",
+      "measured": null
+    },
+    {
+      "name": "hybrid-eps",
+      "command": "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m hybrid_eps.server",
+      "enabled": false,
+      "description": "",
+      "measured": null
+    },
+    {
+      "name": "live-computer-agent",
+      "command": "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m live_computer_agent.mcp.server",
+      "enabled": false,
+      "description": "",
+      "measured": null
+    },
+    {
+      "name": "llm-engineering-workbench",
+      "command": "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python312\\python.exe D:\\AI-Tools-Consolidated\\New folder\\opencode\\mcp\\llm-engineering-workbench\\mcp\\server.py",
+      "enabled": false,
+      "description": "",
+      "measured": null
+    },
+    {
+      "name": "media-master",
+      "command": "C:\\Program Files\\nodejs\\node.exe D:\\AI-Tools-Consolidated\\New folder\\opencode\\mcp\\media-master\\lib\\index.js",
+      "enabled": false,
+      "description": "",
+      "measured": null
+    },
+    {
+      "name": "olcap-image-generator",
+      "command": "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m olcap_image_gen.server",
+      "enabled": false,
+      "description": "",
+      "measured": null
+    },
+    {
+      "name": "olcap-phonecall-management",
+      "command": "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m olcap.main",
+      "enabled": false,
+      "description": "",
+      "measured": null
+    },
+    {
+      "name": "olcap-web-browser",
+      "command": "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m olcap.servers.web_browser",
+      "enabled": false,
+      "description": "",
+      "measured": null
+    },
+    {
+      "name": "olcap-research-knowledge",
+      "command": "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m olcap.servers.research_knowledge",
+      "enabled": false,
+      "description": "",
+      "measured": null
+    },
+    {
+      "name": "olcap-data-automation-os",
+      "command": "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m olcap.servers.data_automation_os",
+      "enabled": false,
+      "description": "",
+      "measured": null
+    },
+    {
+      "name": "openclaw-pack",
+      "command": "C:\\Program Files\\nodejs\\node.exe D:\\AI-Tools-Consolidated\\New folder\\opencode\\mcp\\openclaw-complete-mcp-skill-pack\\mcp\\server\\index.js",
+      "enabled": false,
+      "description": "",
+      "measured": null
+    },
+    {
+      "name": "unified-operator",
+      "command": "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m unified",
+      "enabled": false,
+      "description": "",
+      "measured": null
+    },
+    {
+      "name": "universal-control",
+      "command": "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python312\\python.exe D:\\AI-Tools-Consolidated\\New folder\\opencode\\mcp\\windows-control-mcp\\windows-control-mcp\\universa",
+      "enabled": false,
+      "description": "",
+      "measured": null
+    },
+    {
+      "name": "universal-decompiler",
+      "command": "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m universal_decompiler.server",
+      "enabled": false,
+      "description": "",
+      "measured": null
+    },
+    {
+      "name": "universal-research",
+      "command": "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m universal_research",
+      "enabled": false,
+      "description": "",
+      "measured": null
+    },
+    {
+      "name": "virtualization-master",
+      "command": "C:\\Program Files\\nodejs\\node.exe D:\\AI-Tools-Consolidated\\New folder\\opencode\\mcp\\virtualization-master\\lib\\index.js",
+      "enabled": false,
+      "description": "",
+      "measured": null
+    },
+    {
+      "name": "wireshark",
+      "command": "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m wireshark_mcp",
+      "enabled": false,
+      "description": "",
+      "measured": null
+    },
+    {
+      "name": "gamedev",
+      "command": "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m gamedev_mcp serve",
+      "enabled": false,
+      "description": "",
+      "measured": null
+    },
+    {
+      "name": "vedic-astrology",
+      "command": "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m jyotish_agent mcp",
+      "enabled": false,
+      "description": "",
+      "measured": null
+    }
+  ],
+  "skills": [
+    {
+      "id": "04-decompiler",
+      "description": ""
+    },
+    {
+      "id": "05-hybrid-eps",
+      "description": "Analyze raster edges and create verified hybrid/vector EPS, SVG, PDF, or PNG through the Hybrid EPS MCP."
+    },
+    {
+      "id": "06-image-to-3d-character",
+      "description": "Convert a 2D AI-generated anime character image (PNG/JPG/WebP, EPS/SVG, or a character-sheet directory) into a usable, animation-ready 3D ch"
+    },
+    {
+      "id": "07-LiveComputerAgent",
+      "description": "Persistent, interruptible Windows perception and control through MCP; use only when GUI interaction is necessary."
+    },
+    {
+      "id": "08-media-master",
+      "description": "Safely inspect and transform local media through the media-master MCP using capability checks, exact plans, approval, bounded jobs, and outp"
+    },
+    {
+      "id": "09-n8n",
+      "description": "Operate, build, validate, test, debug, and administer n8n through n8n-full-mcp and the official n8n MCP. Use for workflows, nodes, expressio"
+    },
+    {
+      "id": "10-virtualization",
+      "description": "Safely reason about and operate VMs through the virtualization-master MCP with explicit HOST/GUEST context, exact approval, readiness checks"
+    },
+    {
+      "id": "academic-research",
+      "description": "Search papers on arXiv/Crossref. Use for scholarly sources, preprints, and citation-grade evidence."
+    },
+    {
+      "id": "android_adb",
+      "description": ""
+    },
+    {
+      "id": "android_apps",
+      "description": ""
+    },
+    {
+      "id": "android_control",
+      "description": ""
+    },
+    {
+      "id": "android_device_info",
+      "description": ""
+    },
+    {
+      "id": "android_discovery",
+      "description": ""
+    },
+    {
+      "id": "android_files",
+      "description": ""
+    },
+    {
+      "id": "android_input",
+      "description": ""
+    },
+    {
+      "id": "android_intents",
+      "description": ""
+    },
+    {
+      "id": "android_messaging",
+      "description": ""
+    },
+    {
+      "id": "android_multi_device",
+      "description": ""
+    },
+    {
+      "id": "android_recovery",
+      "description": ""
+    },
+    {
+      "id": "android_remote_touchpad",
+      "description": ""
+    },
+    {
+      "id": "android_screen",
+      "description": ""
+    },
+    {
+      "id": "android_shell",
+      "description": ""
+    },
+    {
+      "id": "android_ui",
+      "description": ""
+    },
+    {
+      "id": "android_vision",
+      "description": ""
+    },
+    {
+      "id": "android-adb",
+      "description": "Android Debug Bridge engine — server, device discovery, connect/pair, and transport-level diagnostics. Use for any ADB server lifecycle work"
+    },
+    {
+      "id": "android-apps",
+      "description": "Application lifecycle — list, launch, stop, and inspect installed applications, plus deep links and settings. Use when the user wants to fin"
+    },
+    {
+      "id": "android-control",
+      "description": "Universal Android phone/device control through the android-control MCP server. Lists, connects, and drives Android devices — taps, swipes, t"
+    },
+    {
+      "id": "android-device-info",
+      "description": "Read the full device profile — model, Android/API level, build, screen, battery, memory, and capability flags. Use before automation that de"
+    },
+    {
+      "id": "android-discovery",
+      "description": "Discover connected Android devices (USB, Wi-Fi, emulator), report serials, states, and capabilities, and confirm uniqueness before a session"
+    },
+    {
+      "id": "android-files",
+      "description": "Push, pull, list, and verify files between the host and a connected device. Use for transferring content to/from the device, checking storag"
+    },
+    {
+      "id": "android-input",
+      "description": "Inject taps, long presses, swipes, scrolls, text, and key events into the active device. Use for direct gesture/input automation when UI-tre"
+    },
+    {
+      "id": "android-intents",
+      "description": "Fire Android intents — explicit activities, deep links, and package-targeted actions including settings panes and browser URLs. Use to open "
+    },
+    {
+      "id": "android-messaging",
+      "description": "Agent-device messaging channel — the private comms pathway between the host agent and the device for confirmation prompts, status pings, and"
+    },
+    {
+      "id": "android-multi-device",
+      "description": "Fleet overview, groups, and parallel control across multiple connected devices. Use when more than one device is online and work must target"
+    },
+    {
+      "id": "android-recovery",
+      "description": "Reconnect and self-heal devices — transport drops, offline/unauthorized states, stale ADB servers, and post-reboot recovery. Use when a devi"
+    },
+    {
+      "id": "android-remote-touchpad",
+      "description": "Phone-as-PC-input companion — remote touchpad mode that turns a connected phone into an input surface for the host. Use when a device is act"
+    },
+    {
+      "id": "android-screen",
+      "description": "Screenshots, screen recording, and display info — observe and prove device screen state. Use to capture what is on the display, record a ses"
+    },
+    {
+      "id": "android-shell",
+      "description": "Run checked Android shell commands on a connected device with an allowlist discipline and output that is parsed, never raw-trusted. Use for "
+    },
+    {
+      "id": "android-ui",
+      "description": "Semantic UI hierarchy — traverse, find, click, type, and read the accessibility tree instead of raw coordinates. Use for the majority of app"
+    },
+    {
+      "id": "android-vision",
+      "description": "Visual fallback observation — when the UI tree is missing, stale, or blocked, derive what is on screen from captured frames (plus any OCR/vi"
+    },
+    {
+      "id": "animation",
+      "description": "Performance pipeline from blocking to polish — 12 principles in Blender practice, locomotion (human, animal, invented, multi-leg, flight, sw"
+    },
+    {
+      "id": "architecture",
+      "description": "Chooses module boundaries, data flow, and failure handling for new or existing software. Use after requirements and tech selection, before l"
+    },
+    {
+      "id": "bakg",
+      "description": "Blender Animation Knowledge Graph — complete standalone ecosystem for imagining, designing, modeling, sculpting, lookdev, rigging, animating"
+    },
+    {
+      "id": "bakg-orchestrator",
+      "description": "Whole-system router for BAKG. Decomposes arbitrary film/character/creature/world ideas, fires only the required skills, orders them by graph"
+    },
+    {
+      "id": "blender-foundations",
+      "description": "Blender 4.x fundamentals, 3D planning (units, budgets, breakdowns), scene organization, and blockout — the load-bearing walls of every proje"
+    },
+    {
+      "id": "catlx",
+      "description": "ROOT gateway for the CATLX Universal AI Operating System skill ecosystem. Load this first for any task about CATLX architecture, design, run"
+    },
+    {
+      "id": "catlx-ai-provider",
+      "description": "Handles the CATLX AI provider architecture: the Provider Abstraction Layer (PAL), current and future providers, provider routing and failove"
+    },
+    {
+      "id": "catlx-capability-routing",
+      "description": "Handles CATLX capability and environment routing: where a module's work executes (LOCAL_PROCESS, LOCAL_SUBPROCESS, LOCAL_CONTAINER, REMOTE_A"
+    },
+    {
+      "id": "catlx-desktop-control",
+      "description": "Handles the CATLX Desktop Control Engine: mouse control, keyboard synthesis, window management, file operations, browser automation (Playwri"
+    },
+    {
+      "id": "catlx-docker",
+      "description": "Handles the CATLX Docker architecture: the container strategy, core service containers, Docker Compose configuration with overrides, portabl"
+    },
+    {
+      "id": "catlx-electron-shell",
+      "description": "Handles the CATLX Electron OS Shell: an OS-layer interface (not a normal app window), the multi-window window roles (main, HUD overlay, comm"
+    },
+    {
+      "id": "catlx-hardware-adaptation",
+      "description": "Handles CATLX hardware adaptation: hardware tier detection (T0/T1/T2/T3), the capability matrix, the boot-time hardware scan, the Capability"
+    },
+    {
+      "id": "catlx-jarvis-bridge",
+      "description": "Routing inside CATLX for the JARVIS Add-On capability package — every request enters through the CATLX orchestrator, is classified by CATLX,"
+    },
+    {
+      "id": "catlx-memory",
+      "description": "Handles the CATLX memory architecture: episodic, semantic, workspace, and knowledge-graph memory stores, the Memory Broker as the single acc"
+    },
+    {
+      "id": "catlx-orchestrator",
+      "description": "UNIVERSAL ORCHESTRATOR — the automatic front door to the entire CATLX skill ecosystem. Activate this once and then just ask in plain English"
+    },
+    {
+      "id": "catlx-plugin-ecosystem",
+      "description": "Handles the CATLX plugin ecosystem: the plugin runtime (worker threads / Docker), signed plugin security with capability grants, the @catlx/"
+    },
+    {
+      "id": "catlx-portability",
+      "description": "Handles CATLX portability: the portability mandate, the CATLX_ROOT relative-path architecture, bundled Node runtime, database portability, p"
+    },
+    {
+      "id": "catlx-recovery",
+      "description": "Handles the CATLX recovery architecture: crash recovery via the PID lockfile, Safe Mode, Recovery Mode, checkpoint integrity verification an"
+    },
+    {
+      "id": "catlx-runtime-lifecycle",
+      "description": "Handles the CATLX runtime lifecycle sequences: the full boot sequence, the detailed voice-command lifecycle, the workflow lifecycle, the plu"
+    },
+    {
+      "id": "catlx-screen-understanding",
+      "description": "Handles CATLX OCR and screen understanding: tier-scaled OCR backends (Tesseract, EasyOCR, PaddleOCR), post-processing to classify UI element"
+    },
+    {
+      "id": "catlx-security",
+      "description": "Handles the CATLX security architecture: least-privilege model, the credential vault (DPAPI on Windows), Windows Credential Manager integrat"
+    },
+    {
+      "id": "catlx-silexis-modules",
+      "description": "Handles the SILEXIS module system in CATLX: module extraction, analysis, building, packaging, and the file-backed module registry (SQLite, R"
+    },
+    {
+      "id": "catlx-telemetry",
+      "description": "Handles CATLX telemetry and observability: distributed tracing with a root Trace ID and spans, cross-subsystem correlation, causal lineage, "
+    },
+    {
+      "id": "catlx-voice-pipeline",
+      "description": "Handles the CATLX voice-first interface: the 10-stage voice processing pipeline (wake word, audio capture, STT, context injection, NLU/inten"
+    },
+    {
+      "id": "catlx-workflow-engine",
+      "description": "Handles the CATLX Workflow Engine: the DAG execution model, the four scheduling modes (immediate/deferred/event/background), checkpointing, "
+    },
+    {
+      "id": "character-design",
+      "description": "Character/creature concept, silhouette and shape language, spec sheets, reference boards, AI concept exploration, and style guides — the che"
+    },
+    {
+      "id": "cinematography",
+      "description": "Camera object, shot language, composition, lens and perspective, shot design per beat, camera movement, continuity, and match moving for liv"
+    },
+    {
+      "id": "claim-verification",
+      "description": "Verify a claim across independent sources with a confidence verdict. Use before asserting any standalone factual claim."
+    },
+    {
+      "id": "cli-applications",
+      "description": "Designs command-line tools with stable exit codes and tests. Use when building CLIs in Python, Node, C, Go, Rust, or Java."
+    },
+    {
+      "id": "code-search",
+      "description": "Search source code across providers. Use when you need actual code implementations, not talk about code — snippets, API usage, and available"
+    },
+    {
+      "id": "comic-grid-generator",
+      "description": "Generates NxN comic-panel grids locally (DreamShaper-8 + Real-ESRGAN upscale) with visible progress. Use when the user asks to generate a co"
+    },
+    {
+      "id": "community-research",
+      "description": "Community sources — Hacker News, issues, forums, and discussions. Use for practitioner sentiment, failure reports, and what actually broke f"
+    },
+    {
+      "id": "community-research - Copy",
+      "description": "Community sources — Hacker News, issues, forums, and discussions. Use for practitioner sentiment, failure reports, and what actually broke f"
+    },
+    {
+      "id": "comparison",
+      "description": "Compare entities or sources across dimensions. Use when the user wants a side-by-side assessment, not two separate facts."
+    },
+    {
+      "id": "competitive-research",
+      "description": "Compare competing solutions/entities with an emphasis on positioning, strengths, and weaknesses. Use for market, product, and technology com"
+    },
+    {
+      "id": "connect",
+      "description": "Brings up both device links in one shot - the WCB bridge (phone controls this PC) and ADB (this PC controls the Android). Use whenever the u"
+    },
+    {
+      "id": "contradiction-search",
+      "description": "Seek criticisms, limits, and failures — hunt angles, dissenting evidence, and conditions under which a claim breaks. Use to stress-test anyt"
+    },
+    {
+      "id": "costume-groom",
+      "description": "Clothing design and 3D tailoring, cloth sim, accessories, armor, props-as-worn, curves hair, GN fur, feathers, grooming, and strand dynamics"
+    },
+    {
+      "id": "debugging",
+      "description": "Diagnoses build, test, and runtime failures. Use when commands fail, tests go red, or the user pastes a stack trace."
+    },
+    {
+      "id": "decision-engine",
+      "description": "Resolves every major BAKG fork — style, engine, modeling workflow, rig type, hair/fur, sim vs fake, DoF/MB, formats, when to stop, facial me"
+    },
+    {
+      "id": "decision-engine - Copy",
+      "description": "Resolves every major BAKG fork — style, engine, modeling workflow, rig type, hair/fur, sim vs fake, DoF/MB, formats, when to stop, facial me"
+    },
+    {
+      "id": "deep-research",
+      "description": "Autonomous end-to-end research composing all research skills — plan, execute, track, and cancel a budgeted multi-query investigation. Use fo"
+    },
+    {
+      "id": "desktop-applications",
+      "description": "Builds local desktop UIs. Use for tkinter or when the user wants a desktop app. Native Windows admin is a different MCP."
+    },
+    {
+      "id": "document-research",
+      "description": "Research documents including office types — find, fetch, chunk, and retrieve text from PDFs, DOCX, XLSX, and PPTX sources. Use when the evid"
+    },
+    {
+      "id": "environment",
+      "description": "Environment production, terrain, architecture, nature, set dressing and environmental storytelling, props libraries, Geometry Nodes, and pro"
+    },
+    {
+      "id": "error-investigation",
+      "description": "Investigate an error message deeply — reproduce a search across official docs, GitHub, and community reports, then synthesize a diagnosis. U"
+    },
+    {
+      "id": "error-investigation - Copy",
+      "description": "Investigate an error message deeply — reproduce a search across official docs, GitHub, and community reports, then synthesize a diagnosis. U"
+    },
+    {
+      "id": "evidence-extraction",
+      "description": "Map claim → evidence → source → location. Use to pull the supporting (and disconfirming) passages behind any claim before it is written up o"
+    },
+    {
+      "id": "fact-checking",
+      "description": "Fact-check verdict vocabulary with evidence — supported, refuted, unverifiable, misleading. Use as the final gate before a claim becomes a s"
+    },
+    {
+      "id": "fact-checking - Copy",
+      "description": "Fact-check verdict vocabulary with evidence — supported, refuted, unverifiable, misleading. Use as the final gate before a claim becomes a s"
+    },
+    {
+      "id": "game-development-master",
+      "description": "Orchestrate a complete game-development lifecycle across Unreal Engine and Unity through the gamedev-mcp server: idea -> project -> architec"
+    },
+    {
+      "id": "generative-ui",
+      "description": "How to render rich interactive HTML widgets inline in the chat or as standalone artifacts. Use this skill when you want to show the user dia"
+    },
+    {
+      "id": "github-research",
+      "description": "Research GitHub repositories, code, issues, and releases. Use when the question is about software projects, source code, maintainers, bugs, "
+    },
+    {
+      "id": "government-research",
+      "description": "Site-targeted official/government research — official sources, regulations, public records. Use when authoritative, jurisdiction-specific ev"
+    },
+    {
+      "id": "government-research - Copy",
+      "description": "Site-targeted official/government research — official sources, regulations, public records. Use when authoritative, jurisdiction-specific ev"
+    },
+    {
+      "id": "grease-pencil",
+      "description": "Grease Pencil 3 (Blender 4.3+) object model, 2D drawing and animation, GP materials and looks, classic 2D inside Blender, and hybrid 2D-3D p"
+    },
+    {
+      "id": "hybrid-eps - Copy",
+      "description": "Analyze raster edges and create verified hybrid/vector EPS, SVG, PDF, or PNG through the Hybrid EPS MCP."
+    },
+    {
+      "id": "hybrid-eps-master",
+      "description": "Analyze raster edges and create verified hybrid/vector EPS, SVG, PDF, or PNG through the Hybrid EPS MCP."
+    },
+    {
+      "id": "image-to-3d-character",
+      "description": "Convert a 2D AI-generated anime character image (PNG/JPG/WebP, EPS/SVG, or a character-sheet directory) into a usable, animation-ready 3D ch"
+    },
+    {
+      "id": "implementation",
+      "description": "How to change and create code professionally in this ecosystem. Use when writing or editing application source after a plan exists."
+    },
+    {
+      "id": "knowledge-graph",
+      "description": "Persist research graph of Question/Claim/Evidence/Source relations. Use to keep a complex research task's findings structured and reusable a"
+    },
+    {
+      "id": "knowledge-graph - Copy",
+      "description": "Persist research graph of Question/Claim/Evidence/Source relations. Use to keep a complex research task's findings structured and reusable a"
+    },
+    {
+      "id": "libraries-and-apis",
+      "description": "Builds reusable libraries and HTTP services with explicit public APIs. Use when the deliverable is a package or backend, not a full product "
+    },
+    {
+      "id": "lighting",
+      "description": "Light setup and mood, shadows, atmosphere, volumetrics — time-of-day and weather tables, 12 mood recipes, portrait patterns, color theory fo"
+    },
+    {
+      "id": "link-discovery",
+      "description": "Extract outbound links from a page. Use to discover hubs, citations, related resources, or the frontier of a crawl."
+    },
+    {
+      "id": "literature-review",
+      "description": "Structured academic literature sweep — cover a topic across sources with per-query caps for a reproducible survey. Use before writing a surv"
+    },
+    {
+      "id": "live-windows-computer-agent",
+      "description": "Persistent, interruptible Windows perception and control through MCP; use only when GUI interaction is necessary."
+    },
+    {
+      "id": "llm-agents",
+      "description": "Build LLM agents and tool-using systems - serving, tool schemas, control loops, guardrails, evaluation."
+    },
+    {
+      "id": "llm-architecture",
+      "description": "Design the model architecture: family, params, layers, heads, FFN, norm, positional, embeddings."
+    },
+    {
+      "id": "llm-autonomy",
+      "description": "Run projects autonomously within approval boundaries: what needs confirmation, what doesn't."
+    },
+    {
+      "id": "llm-benchmarks",
+      "description": "Run and interpret LLM benchmarks - MCQ accuracy, exact match, token-F1, harness hygiene, contamination."
+    },
+    {
+      "id": "llm-compression",
+      "description": "Compress models: quantization, pruning, distillation, parameter sharing — with quality cost."
+    },
+    {
+      "id": "llm-conversion",
+      "description": "Convert model formats only where the architecture/runtime actually supports it."
+    },
+    {
+      "id": "llm-data-acquisition",
+      "description": "Acquire data lawfully: source research, licensing, provenance, download and validation."
+    },
+    {
+      "id": "llm-data-engineering",
+      "description": "Run the data pipeline: clean, PII-redact, dedupe, pack, stats — with measurable reports."
+    },
+    {
+      "id": "llm-efficiency",
+      "description": "Make a model efficient for specific hardware: profile, optimize, benchmark before/after."
+    },
+    {
+      "id": "llm-evaluation",
+      "description": "Evaluate models: LM loss/PPL, sample review, domain probes, and honest reporting."
+    },
+    {
+      "id": "llm-finetuning",
+      "description": "Choose and run fine-tuning: full, SFT, LoRA, QLoRA, continued pretraining, domain adaptation."
+    },
+    {
+      "id": "llm-hardware",
+      "description": "Probe hardware and design within it: CPU/RAM/GPU/VRAM/storage budgets and feasibility math."
+    },
+    {
+      "id": "llm-hpo",
+      "description": "Hyperparameter optimization for LLM training - sweep design, search budgets, honest ranking by val loss."
+    },
+    {
+      "id": "llm-implementation",
+      "description": "Implement the model: project layout, runtime engines, selftest, and what 'from scratch' means here."
+    },
+    {
+      "id": "llm-inference",
+      "description": "Configure local inference: sampling, context, batching, and generation quality control."
+    },
+    {
+      "id": "llm-iteration",
+      "description": "Iterate: analyze weaknesses, change one thing, retrain, compare, keep experiment history."
+    },
+    {
+      "id": "llm-llmops",
+      "description": "LLM operations - model cards, experiment registries, artifact tracking, release hygiene, reproducibility."
+    },
+    {
+      "id": "llm-multilingual",
+      "description": "Multilingual LLM work - script/language statistics, tokenizer coverage, data mixing across languages."
+    },
+    {
+      "id": "llm-post-training",
+      "description": "Preference/post-training: preference data, DPO, reward modeling, verifiers — pick by objective."
+    },
+    {
+      "id": "llm-pretrained",
+      "description": "Work with existing/pretrained models: inspect, verify compatibility, prepare data, choose adaptation."
+    },
+    {
+      "id": "llm-registries",
+      "description": "Maintain model and experiment registries: artifact metadata, history, comparison."
+    },
+    {
+      "id": "llm-requirements",
+      "description": "Analyze requirements BEFORE any training: purpose, users, domain, size, quality, hardware, licensing."
+    },
+    {
+      "id": "llm-research",
+      "description": "Research-first: verify current facts against primary sources before building on them."
+    },
+    {
+      "id": "llm-router",
+      "description": "Select the workflow for an LLM objective and orchestrate phases, skills and MCP tools."
+    },
+    {
+      "id": "llm-safety",
+      "description": "Safety evaluation and harm reduction for LLMs - lexicon screens, red-teaming, refusal behavior, honest limits."
+    },
+    {
+      "id": "llm-serving",
+      "description": "Serve a model as an OpenAI-compatible API: endpoints, streaming, auth, lifecycle."
+    },
+    {
+      "id": "llm-tokenizer",
+      "description": "Train or select a tokenizer: BPE training, special tokens, efficiency measurement."
+    },
+    {
+      "id": "llm-training",
+      "description": "Configure and run training: optimizer, LR schedule, batch, precision, clipping, seeds."
+    },
+    {
+      "id": "llm-training-ops",
+      "description": "Monitor training and manage checkpoints: loss/PPL/throughput, NaN/divergence detection, retention."
+    },
+    {
+      "id": "lookdev",
+      "description": "UV mapping, texture creation/painting/baking/procedural, Principled materials, shaders, organic lookdev (skin/eyes/teeth/tongue/claws), and "
+    },
+    {
+      "id": "mcp-routing",
+      "description": "Chooses which existing specialist MCP and which software-engineering tools to use. Use at the start of any engineering task and whenever wor"
+    },
+    {
+      "id": "media-master",
+      "description": "Safely inspect and transform local media through the media-master MCP using capability checks, exact plans, approval, bounded jobs, and outp"
+    },
+    {
+      "id": "migrate-workflows",
+      "description": "Automatically migrate legacy workflows to modern skills across global and workspace configurations. Scans for existing workflows, creates ta"
+    },
+    {
+      "id": "modeling",
+      "description": "Organic, hard-surface, character, and creature modeling; retopology; deformation topology — converting design into geometry that can rig, UV"
+    },
+    {
+      "id": "music-picker",
+      "description": "Search, browse, and play the user's local music library (Music Master Index) on the PC or the phone. Use whenever the user asks to play, sea"
+    },
+    {
+      "id": "n8n",
+      "description": "Operate, build, validate, test, debug, and administer n8n through n8n-full-mcp and the official n8n MCP. Use for workflows, nodes, expressio"
+    },
+    {
+      "id": "news-research",
+      "description": "News search with freshness — find recent reporting, coverage of current events, and development timelines. Use when the question is about wh"
+    },
+    {
+      "id": "olcap-usage",
+      "description": "OLCAP operation guide — a three-server MCP capability stack (web_browser, research_knowledge, data_automation_os) hosted at C:\\\\Users\\\\HP\\\\O"
+    },
+    {
+      "id": "open-my-phone",
+      "description": "Wake and unlock the user's OnePlus 9 Pro (ADB 192.168.1.5:5555) in one fast sequence. Use whenever the user says \"open my phone\", \"unlock my"
+    },
+    {
+      "id": "openclaw-agents",
+      "description": "OpenClaw agents and multi-agent routing — workspaces, bootstrap files, bindings, team preset. Use for agent setup and persona questions."
+    },
+    {
+      "id": "openclaw-automation",
+      "description": "OpenClaw automation — automations/cron, heartbeat, tasks, Task Flow, HOOK.md hooks, webhooks, standing orders. Use for scheduling work."
+    },
+    {
+      "id": "openclaw-cli",
+      "description": "OpenClaw CLI reference — gateway, agents, skills, plugins, mcp, doctor, config, updates, 60+ command groups. Use for command-line questions."
+    },
+    {
+      "id": "openclaw-code-mode",
+      "description": "OpenClaw Code Mode — model writes JS/TS for an isolated QuickJS-WASI guest with a hidden tool catalog (exec/wait). Use for orchestration que"
+    },
+    {
+      "id": "openclaw-config",
+      "description": "OpenClaw configuration — openclaw.json JSON5, hot reload, config RPC, env vars, $include. Use for any config read/write task."
+    },
+    {
+      "id": "openclaw-core",
+      "description": "OpenClaw architecture basics — gateway, channels, memory, Control UI/TUI, 2026.9 release model. Use for 'what is OpenClaw' questions."
+    },
+    {
+      "id": "openclaw-debugging",
+      "description": "Debug OpenClaw — doctor, status, logs, mcp probe, plugins doctor, transcripts, triage. Use when something is broken."
+    },
+    {
+      "id": "openclaw-extension-development",
+      "description": "Extend OpenClaw — build plugins with the SDK, register tools and hooks, publish to ClawHub. Use for 'build an extension' tasks."
+    },
+    {
+      "id": "openclaw-installation",
+      "description": "Install/update OpenClaw — npm, Node 24+, release channels, Docker/VPS deploys, migrations, rollback. Use for install/upgrade tasks."
+    },
+    {
+      "id": "openclaw-mcp",
+      "description": "OpenClaw MCP — connect servers via mcp.servers and expose channels via 'openclaw mcp serve'. Use for any MCP wiring task."
+    },
+    {
+      "id": "openclaw-opencode-bridge",
+      "description": "Bridge OpenClaw and OpenCode — shared SKILL.md roots, mcp serve bridge, ACP opencode harness, this pack. Use for cross-tool integration."
+    },
+    {
+      "id": "openclaw-plugins",
+      "description": "Install, configure, and build OpenClaw plugins from ClawHub, npm, git, or local paths — manifests, hooks, SDK. Use for plugin tasks."
+    },
+    {
+      "id": "openclaw-research",
+      "description": "Verify OpenClaw facts against primary sources — docs .md exports, llms.txt, changelogs, npm. Use before asserting version-specific claims."
+    },
+    {
+      "id": "openclaw-router",
+      "description": "MASTER ROUTER — classify any OpenClaw task, then pick the capability, skill, MCP, and minimum tool. Load first for every OpenClaw request."
+    },
+    {
+      "id": "openclaw-security",
+      "description": "OpenClaw security — trust boundary, permission modes, exec approvals, sandboxing, secrets, MITRE ATLAS. Use for hardening tasks."
+    },
+    {
+      "id": "openclaw-skills",
+      "description": "Author and manage OpenClaw SKILL.md skills — precedence, frontmatter, skills.* config, ClawHub, Skill Workshop. Use for skill tasks."
+    },
+    {
+      "id": "openclaw-subagents",
+      "description": "OpenClaw sub-agents (sessions_spawn, /subagents) and ACP harness agents incl. OpenCode. Use for parallel/background work."
+    },
+    {
+      "id": "openclaw-tool-search",
+      "description": "OpenClaw Tool Search (tools.toolSearch) — compact catalogs behind search/describe/call and tool_search_code. Use for heavy tool catalogs."
+    },
+    {
+      "id": "openclaw-tools",
+      "description": "OpenClaw tool surface — exec/files/browser/web/media/messaging tools, tool policy, exec approvals. Use for 'which tool' questions."
+    },
+    {
+      "id": "pdf-analyze",
+      "description": ""
+    },
+    {
+      "id": "pdf-annotate",
+      "description": ""
+    },
+    {
+      "id": "pdf-batch",
+      "description": ""
+    },
+    {
+      "id": "pdf-bookmarks",
+      "description": ""
+    },
+    {
+      "id": "pdf-chunk",
+      "description": ""
+    },
+    {
+      "id": "pdf-compare",
+      "description": ""
+    },
+    {
+      "id": "pdf-compress",
+      "description": ""
+    },
+    {
+      "id": "pdf-convert",
+      "description": ""
+    },
+    {
+      "id": "pdf-create",
+      "description": ""
+    },
+    {
+      "id": "pdf-crop",
+      "description": ""
+    },
+    {
+      "id": "pdf-decrypt",
+      "description": ""
+    },
+    {
+      "id": "pdf-diff",
+      "description": ""
+    },
+    {
+      "id": "pdf-document-state",
+      "description": ""
+    },
+    {
+      "id": "pdf-edit",
+      "description": ""
+    },
+    {
+      "id": "pdf-encrypt",
+      "description": ""
+    },
+    {
+      "id": "pdf-export",
+      "description": ""
+    },
+    {
+      "id": "pdf-extract",
+      "description": ""
+    },
+    {
+      "id": "pdf-fill-forms",
+      "description": ""
+    },
+    {
+      "id": "pdf-forms",
+      "description": ""
+    },
+    {
+      "id": "pdf-header-footer",
+      "description": ""
+    },
+    {
+      "id": "pdf-images",
+      "description": ""
+    },
+    {
+      "id": "pdf-index",
+      "description": ""
+    },
+    {
+      "id": "pdf-inspect",
+      "description": ""
+    },
+    {
+      "id": "pdf-links",
+      "description": ""
+    },
+    {
+      "id": "pdf-merge",
+      "description": ""
+    },
+    {
+      "id": "pdf-metadata",
+      "description": ""
+    },
+    {
+      "id": "pdf-ocr",
+      "description": ""
+    },
+    {
+      "id": "pdf-optimize",
+      "description": ""
+    },
+    {
+      "id": "pdf-orchestrate",
+      "description": ""
+    },
+    {
+      "id": "pdf-permissions",
+      "description": ""
+    },
+    {
+      "id": "pdf-provenance",
+      "description": ""
+    },
+    {
+      "id": "pdf-qa",
+      "description": ""
+    },
+    {
+      "id": "pdf-read",
+      "description": ""
+    },
+    {
+      "id": "pdf-redact",
+      "description": ""
+    },
+    {
+      "id": "pdf-render",
+      "description": ""
+    },
+    {
+      "id": "pdf-reorder",
+      "description": ""
+    },
+    {
+      "id": "pdf-repair",
+      "description": ""
+    },
+    {
+      "id": "pdf-research",
+      "description": "Research PDF documents — parse, chunk, search, and extract passages. Use when the source material is PDF files (papers, reports, manuals)."
+    },
+    {
+      "id": "pdf-rotate",
+      "description": ""
+    },
+    {
+      "id": "pdf-scale",
+      "description": ""
+    },
+    {
+      "id": "pdf-search",
+      "description": ""
+    },
+    {
+      "id": "pdf-sign",
+      "description": ""
+    },
+    {
+      "id": "pdf-split",
+      "description": ""
+    },
+    {
+      "id": "pdf-summarize",
+      "description": ""
+    },
+    {
+      "id": "pdf-tables",
+      "description": ""
+    },
+    {
+      "id": "pdf-validation",
+      "description": ""
+    },
+    {
+      "id": "pdf-vision",
+      "description": ""
+    },
+    {
+      "id": "pdf-watermark",
+      "description": ""
+    },
+    {
+      "id": "performance",
+      "description": "Investigates slowness with measurement first. Use when the user reports performance problems or asks to optimize."
+    },
+    {
+      "id": "permissioned-github",
+      "description": "Guidelines for interacting with GitHub and request permissions from the user when commands fail due to restrictions in the agent environment"
+    },
+    {
+      "id": "personal-autonomous-desktop-person",
+      "description": "Operate the persistent local digital-person runtime and coordinate its approved goals with VEYRON AI OS and a separate computer-use MCP."
+    },
+    {
+      "id": "preproduction",
+      "description": "Story, world bible, storyboard, animatic, previs, and motion reference — the cheap, high-information decisions that set shot count, asset li"
+    },
+    {
+      "id": "presentation-research",
+      "description": "Extract from PPTX documents — locate decks and retrieve their slide content. Use when the source material is slide decks (talks, proposals, "
+    },
+    {
+      "id": "production-finishing",
+      "description": "Editing, sound and music, shot/asset/file organization, versioning, pipeline, performance optimization, QC, final output, archiving, add-ons"
+    },
+    {
+      "id": "query-builder",
+      "description": "Build and validate search query families — operator-aware variants tuned per intent (discovery, exact, technical, verification, contradictio"
+    },
+    {
+      "id": "query-builder - Copy",
+      "description": "Build and validate search query families — operator-aware variants tuned per intent (discovery, exact, technical, verification, contradictio"
+    },
+    {
+      "id": "query-expansion",
+      "description": "Expand a topic into query variants — synonyms, related terms, and alternate phrasings that surface content the original wording misses. Use "
+    },
+    {
+      "id": "query-expansion - Copy",
+      "description": "Expand a topic into query variants — synonyms, related terms, and alternate phrasings that surface content the original wording misses. Use "
+    },
+    {
+      "id": "query-refinement",
+      "description": "Refine a query with domain, filetype, exact-phrase, and term-exclusion constraints to cut noise. Use when results are broad, stale, or off-t"
+    },
+    {
+      "id": "query-refinement - Copy",
+      "description": "Refine a query with domain, filetype, exact-phrase, and term-exclusion constraints to cut noise. Use when results are broad, stale, or off-t"
+    },
+    {
+      "id": "release-engineering",
+      "description": "Packages, versions, and verifies software for delivery. Use when the user asks to ship, release, produce artifacts, or write install instruc"
+    },
+    {
+      "id": "render-comp",
+      "description": "Rendering, engine choice execution, optimization, passes/AOVs, compositing, color correction and grading — turning the scene into film image"
+    },
+    {
+      "id": "repo2skill",
+      "description": "Convert GitHub/GitLab/Gitee repositories into comprehensive OpenCode Skills using embedded LLM calls with multiple mirrors and rate limit ha"
+    },
+    {
+      "id": "requirements-analysis",
+      "description": "Turns a vague \"build this\" request into testable requirements. Use before architecture or scaffolding whenever scope is unclear or the user "
+    },
+    {
+      "id": "rigging",
+      "description": "Skeleton design, IK/FK, constraints, drivers, controllers, weight painting, skinning, deformation, correctives, facial rigs, eye systems, ad"
+    },
+    {
+      "id": "sculpting-anatomy",
+      "description": "Anatomy and proportion libraries plus sculpting craft — primary/secondary/tertiary forms, brushes, dyntopo/voxel/multires, detail transfer —"
+    },
+    {
+      "id": "search-operators",
+      "description": "Understand and apply site:/filetype:/intitle:/inurl:/phrase/OR/- operators and route operator-aware searches to the right source kind. Use w"
+    },
+    {
+      "id": "security",
+      "description": "Applies secure-by-default engineering checks. Use before release, when handling auth/secrets, or after se_security_audit findings."
+    },
+    {
+      "id": "simulation",
+      "description": "Physics infrastructure, particles, rigid/soft bodies, cloth and hair physics, Mantaflow fluids/smoke/fire, destruction, debris, and environm"
+    },
+    {
+      "id": "software-engineering",
+      "description": "Orchestrates a one-person software team workflow from request to verified delivery. Use when the user asks to build, maintain, debug, or shi"
+    },
+    {
+      "id": "source-analysis",
+      "description": "Classify a source's authority, type, and freshness. Use to decide how much weight a specific URL deserves before it enters a verdict."
+    },
+    {
+      "id": "spreadsheet-research",
+      "description": "Extract from XLSX/CSV documents — locate spreadsheets and retrieve their tabular content. Use when the evidence is tabular data."
+    },
+    {
+      "id": "structure-and-sdlc",
+      "description": "Turns ASCII file trees and the 21-phase SDLC catalog into real project layouts. Use when the user pastes a tree, wants boilerplate folders, "
+    },
+    {
+      "id": "technology-selection",
+      "description": "Selects language, framework, and build system from host capabilities and requirements. Use before se_create_project or adding dependencies. "
+    },
+    {
+      "id": "testing",
+      "description": "Plans and runs tests for software in this ecosystem. Use when adding features, fixing bugs, or before declaring work done."
+    },
+    {
+      "id": "universal-artist",
+      "description": "Plan, construct, critique, correct and export professional editable artwork using separate Artist and Visual MCPs."
+    },
+    {
+      "id": "universal-decompiler",
+      "description": ""
+    },
+    {
+      "id": "universal-visual-computing",
+      "description": "Discover and compose safe raster, vector, CV, OCR, video, procedural and optional model capabilities."
+    },
+    {
+      "id": "vedic-astrology",
+      "description": "Deterministic Vedic astrology (Jyotish) calculations through the vedic-astrology MCP server — birth charts, divisional charts (vargas), Vims"
+    },
+    {
+      "id": "vfx",
+      "description": "Effects design — layered method for impacts, magic, energy, particles-as-theatre — making the beat readable, then integrating in comp."
+    },
+    {
+      "id": "virtualization-master",
+      "description": "Safely reason about and operate VMs through the virtualization-master MCP with explicit HOST/GUEST context, exact approval, readiness checks"
+    },
+    {
+      "id": "visionforge-gestures",
+      "description": "Control the Windows mouse and trigger Windows actions with body gestures (eyes, head, hands, blink) via the VisionForge gesture runtime. Use"
+    },
+    {
+      "id": "web-applications",
+      "description": "Builds websites and HTTP backends without defaulting to MERN. Use for static sites, HTML/CSS/JS, Express, FastAPI, or Flask work."
+    },
+    {
+      "id": "web-crawler",
+      "description": "Bounded, relevance-guided crawl from seed URLs. Use to map a site or follow a topic across pages without unbounded fetching — frontier kept "
+    },
+    {
+      "id": "web-reader",
+      "description": "Fetch and extract readable page content from a URL. Use before trusting or quoting any web hit — turn a snippet into the actual source text."
+    },
+    {
+      "id": "web-search",
+      "description": "Universal web search across providers with normalization — the base capability for finding anything on the open web. Use for ordinary lookup"
+    },
+    {
+      "id": "windows-wallpaper",
+      "description": "Change the Windows 10/11 desktop wallpaper and lock screen image programmatically (PowerShell + registry), including Windows Spotlight and s"
+    },
+    {
+      "id": "wireshark-network-analysis",
+      "description": ">-"
+    },
+    {
+      "id": "yt-dlp-master",
+      "description": "Research, inspect, plan, approve, execute, verify, and diagnose full practical yt-dlp workflows: video/audio, formats, playlists/channels, s"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "workspace": "C:\\Users\\HP\\Downloads\\Nexus-source\\Nexus",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Say hi in exactly three words.",
+      "time": "2026-11-06T00:54:17.418Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello there friend!",
+      "time": "2026-11-06T00:54:17.426Z"
+    }
+  ]
+}

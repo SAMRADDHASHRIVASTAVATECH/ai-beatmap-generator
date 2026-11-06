@@ -1,0 +1,26 @@
+{
+  "name": "nexus",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Nexus - local agent harness powered by LM Studio",
+  "main": "main.js",
+  "bin": { "nexus": "./tui.js" },
+  "scripts": {
+    "start": "node tui.js",
+    "tui": "node tui.js",
+    "gui": "electron .",
+    "call": "node tui.js call",
+    "test": "node --test test/*.test.js",
+    "capabilities": "node scripts/build-capabilities.js",
+    "probe": "node scripts/probe-models.js",
+    "purple": "node scripts/purple-line.js",
+    "verify": "node scripts/verify.js",
+    "smoke": "set NEXUS_SMOKE=1&& electron ."
+  },
+  "devDependencies": {
+    "electron": "^33.0.0"
+  },
+  "allowScripts": {
+    "electron@33.4.11": true
+  }
+}
